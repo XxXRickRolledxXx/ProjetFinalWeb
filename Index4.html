@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starwars.com</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+<!-- Navbar ------------------------------------------>
+<div class="col-xl-12 no-gutters">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-default tablet-only">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Starwars.com</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="Index.html">Accueil <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="Index2.html">Page 1</a>
+                <a class="nav-item nav-link" href="Index3.html">Page 2</a>
+                <a class="nav-item nav-link active" href="Index4.html">Page 3</a>
+                <a class="nav-item nav-link" href="Index5.html">Mini-Jeu</a>
+            </div>
+        </div>
+
+    </nav>
+</div>
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="col-xl-12">
+            <!-- Caroussel ------------------------------->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- Images Défilantes -->
+                <div class="carousel-inner thumbnail">
+                    <div class="carousel-item active">
+                        <img src="medias/wallpaper.jpg" alt="Img 1" width="1920" height="1080">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="medias/wallpaper2.jpg" alt="Img 2" >
+                    </div>
+                    <div class="carousel-item">
+                        <img src="medias/wallpaper3.jpg" alt="Img 3">
+                    </div>
+                    <div class="text-center post-content textorg">
+                        <h1 class="font-weight-bold2">Starwars.com</h1>
+                    </div>
+                </div>
+
+                <!-- Flèches gauche et droite -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center orange-text">
+    <h1>Un chat.</h1>
+    <input type="button" value="Déplacer Gauche" id="boutonGauche"/>
+    <input type="button" value="Déplacer Droite" id="boutonDroite"/>
+    <input type="button" value="Grossir l'image" id="boutonGrossirImage"/>
+    <input type="button" value="Rapetisser l'image" id="boutonRapetisserImage"/>
+    <input type="button" value="Rétablir l'image" id="boutonRetablirImage"/>
+    <input type="button" value="Enlever l'image" id="boutonEnleverImage"/>
+    <input type="button" value="Afficher l'image" id="boutonAjouterImage"/>
+    <input type="button" value="Dupliquer" id="boutonDupliquer"/>
+    <input type="button" value="Enlever le clone" id="boutonEnleverClone"/> <br/>
+    <img id="catID" class="catClass" src="medias/cate.jpg" width="200px"/>
+</div>
+<footer class="footer  tablet-only">
+    <div class="text-center">
+        <a target="_blank" href="http://www.cegepvicto.ca/formation-collegiale/index.aspx">© 2018 Copyright </a> |
+        <a target="_blank" href="https://goo.gl/maps/gYQGAC5hzLu">475 Rue Notre-Dame Est, Victoriaville, QC G6P 4B3 </a> |
+        <a target="_blank" href="http://www.cegepvicto.ca/formation-collegiale/index.aspx"> Contactez nous </a>
+    </div>
+</footer>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

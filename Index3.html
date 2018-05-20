@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starwars.com</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+<!-- Navbar ------------------------------------------>
+<div id="enlever_1" class="d-block">
+    <div class="col-xl-12 no-gutters">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default tablet-only">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Starwars.com</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="Index.html">Accueil <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="Index2.html">Page 1</a>
+                    <a class="nav-item nav-link active" href="Index3.html">Page 2</a>
+                    <a class="nav-item nav-link" href="Index4.html">Page 3</a>
+                    <a class="nav-item nav-link" href="Index5.html">Mini-Jeu</a>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+</div>
+<div class="container orange-text">
+    <h2>Inscription StarwarsCon</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Nom d'usager :</label>
+            <input type="username" class="form-control" id="username" placeholder="Enter username"
+                   aria-describedby="correct incorrect">
+            <small class="invalid-feedback" id="incorrect">
+                Nom invalide.
+            </small>
+            <small class="valid-feedback" id="correct">
+                Nom valide.
+            </small>
+        </div>
+        <div class="form-group">
+            <label for="password">Mot de passe :</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" name="pass">
+            <small class="d-none red" id="weak">Faible</small>
+            <small class="d-none yellow" id="medium">Moyen</small>
+            <small class="d-none green" id="strong">Fort</small>
+        </div>
+        <div class="form-group">
+            <label for="confirmpwd">Confirmez le mot de passe :</label>
+            <input type="password" class="form-control" id="confirmpwd" placeholder="Confirmez mot de passe"
+                   name="repass" aria-describedby="correct incorrect">
+            <small class="valid-feedback" id="pwdcorrect">Correct.</small>
+            <small class="invalid-feedback" id="pwdincorrect">Incorrect.</small>
+        </div>
+        <div class="form-group">
+            <label for="email">Entrez votre adresse e-mail :</label>
+            <input type="email" class="form-control" id="email" placeholder="Entrez votre Email ici">
+        </div>
+        <div class="form-group">
+            <label for="address">Entrez votre adresse :</label>
+            <input type="form" class="form-control" id="address" placeholder="Entrez l'adresse ici">
+        </div>
+        <div class="form-group">
+            <label for="address">Entrez votre numéros de téléphone :</label>
+            <input type="form" class="form-control" id="cellphone" placeholder="Entrez le numéros ici">
+        </div>
+        <div class="form-group text-center">
+            <label>Choix de costume :</label><br>
+            <img src="medias/yodaa.jpg" id=costume class="choice"/>
+            <div align="center">
+                <select id="starwars_choice_box" class="form-inline choice_box">
+                    <option value="1">Yoda</option>
+                    <option value="2">Luke Skywalker</option>
+                    <option value="3">Qui-Gon Jinn</option>
+                    <option value="4">Boba Fett</option>
+                    <option value="5" selected>...</option>
+                </select>
+            </div>
+            <button type="submit" class="swag btn btn-default" id="submit">Submit</button>
+        </div>
+
+    </form>
+
+</div>
+<div id="enlever_2" class="d-block">
+    <footer class="footer">
+        <div class="text-center">
+            <a target="_blank" href="http://www.cegepvicto.ca/formation-collegiale/index.aspx">© 2018 Copyright </a> |
+            <a target="_blank" href="https://goo.gl/maps/gYQGAC5hzLu">475 Rue Notre-Dame Est, Victoriaville, QC G6P
+                4B3 </a> |
+            <a target="_blank" href="http://www.cegepvicto.ca/formation-collegiale/index.aspx"> Contactez nous </a>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
